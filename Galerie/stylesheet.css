@@ -1,0 +1,25 @@
+.Container{
+    margin-top: 6px;
+    width: 950px;
+    height: 500px auto 500px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto
+}
+
+.flex {
+    height: 300px;
+    transition: .5s;
+    margin: 100px;
+}
+
+.flex:hover{
+    transform: scale(1.6);
+    transition: 0.5;
+    z-index: 100;
+}
+
+h1 {text-align: center; padding-top: 50px;}
+
+body {background-image: url("O.png");}
